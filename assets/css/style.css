@@ -99,5 +99,63 @@
     background-attachment: fixed;
     position: sticky;
   }
+
+  div header {
+    font-size: 25px;
+    border: solid;
+    justify-content: center;
+    border-color: rgb(145, 14, 134);
+  }
   
-  
+  .large-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .top-card {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: center;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(145, 14, 134);
+    width: 60%;
+    
+  }
+
+  .project-1 {
+    width: 100%;
+    margin-bottom: 0;
+  }
+
+  .bottom-containers {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px;
+    padding: 30px 10px 10px 10px;
+    justify-content: center;
+    width: 80%;
+  }
+
+  .bottom-card {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: center;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(145, 14, 134);
+    width: 60%;
+    margin: 20px;
+    flex: 1;
+  }
+
+  .project-2 {
+    width: 100%;
+  }
